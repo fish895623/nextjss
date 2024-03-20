@@ -4,8 +4,14 @@ export default function NavigationBar() {
   return (
     <>
       <nav>
-        <Link href="/">Home</Link>
-        <Link href="/about">About</Link>
+        <ul style={{ display: 'flex' }}>
+          <li style={{ listStyle: 'none' }}>
+            <Link href="/">Home</Link>
+          </li>
+          <li style={{ listStyle: 'none' }}>
+            <Link href="/about">About</Link>
+          </li>
+        </ul>
       </nav>
     </>
   )

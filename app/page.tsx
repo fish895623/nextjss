@@ -4,7 +4,15 @@ export default function Home() {
   return (
     <>
       <NavigationBar />
-      <a>Home</a>
+      <ul>
+        <li>Hello</li>
+      </ul>
+      <ul>
+        <li>Hello</li>
+      </ul>
+      <ul>
+        <li>Hello</li>
+      </ul>
     </>
   )
 }
