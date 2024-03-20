@@ -1,10 +1,12 @@
-'use client'
+import Link from 'next/link'
+
 export default function NavigationBar() {
   return (
     <>
-      <div>
-        <a> This is NavigationBar</a>
-      </div>
+      <nav>
+        <Link href="/">Home</Link>
+        <Link href="/about">About</Link>
+      </nav>
     </>
   )
 }
