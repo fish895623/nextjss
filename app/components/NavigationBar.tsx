@@ -1,15 +1,20 @@
 import Link from 'next/link'
+import './NavigationBar.css'
 
 export default function NavigationBar() {
   return (
     <>
+      {/* Create Site header */}
       <nav>
-        <ul style={{ display: 'flex' }}>
-          <li style={{ listStyle: 'none' }}>
+        <ul className="navbar">
+          <li>
             <Link href="/">Home</Link>
           </li>
-          <li style={{ listStyle: 'none' }}>
+          <li>
             <Link href="/about">About</Link>
+          </li>
+          <li>
+            <Link href="/contact">Contact</Link>
           </li>
         </ul>
       </nav>
